@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds Sounds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================
+         HEADER Y NAVEGACIÓN
+         ============================================ -->
+    <header>
+        <nav>
+            <a href="#visualizacion">Visualización de datos</a>
+            <a href="#autores">Autores</a>
+            <a href="#proyecto">Proyecto</a>
+            <a href="#diagrama">Diagrama</a>
+            <a href="#conclusiones">Conclusiones</a>
+        </nav>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1></h1>
+                <h2></h2>
+                <img src="PORTADA.png" width="1000" alt="Pajarito">
+            </div>
+        </section>
+    </header>
+
+    <!-- ============================================
+         VISUALIZACIÓN DE DATOS
+         ============================================ -->
+    <section class="intro-section" id="visualizacion">
+        <h3>Visualización de datos</h3>
+        <p class="content-text">
+            La visualización de datos es una disciplina que consiste en 
+            <strong>representar datos o información de forma gráfica o visual</strong> 
+            como lo dice su nombre, haciendo que su comprensión sea más fácil 
+            y al mismo tiempo sea más atractiva.
+        </p>
+        <img src="diagrama1.png" alt="diagrama1" width="1200"> 
+    </section>
+
+    <!-- ============================================
+         ELEMENTOS VISUALES
+         ============================================ -->
+    <section class="visual-elements">
+        <p class="datos">
+            Usualmente se utilizan para <strong>identificar tendencias o patrones</strong> que 
+            podrían no ser claros en el formato original de los datos.<br> 
+            Esta utiliza elementos visuales como:
+        </p>
+        <div align="center">
+            <img src="diagrama2.png" alt="diagrama2" width="1150"> 
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROYECTO BIRD SOUNDS
+         ============================================ -->
+    <section class="bird-feature" id="proyecto">
+        <div class="bird-image">
+            <img src="pajarito1.png" alt="Pajarito en rama" width="3000">
+        </div>
+        <div class="bird-text">
+            <h2>Proyecto: <em>Birds sounds</em></h2>
+            <p>Bird Sounds es un <strong>experimento interactivo</strong> por parte de la plataforma <strong>Experiments with Google</strong>, creada por el <strong>Google Creative Lab</strong>, que busca explorar los usos creativos de la inteligencia artificial y la visualización de datos.</p>
+        </div>
+    </section>
+
+    <div class="imagen-centrada">
+        <img src="apartado1.png" width="1800" alt="Apartado 1">
+    </div>
+        
+    <div class="grabaciones">
+        <p>El sistema parte de grabaciones reales del Macaulay Library's Essential Set for North America, perteneciente al Laboratorio de Ornitología de Cornell.</p>
+    </div>
+    
+    <div class="logo"> 
+        <img src="logocornell.png" width="500px" alt="cornell">
+    </div>
+
+    <!-- ============================================
+         FUNCIONALIDADES DE LA PLATAFORMA
+         ============================================ -->
+    <section class="features-section">
+        <div class="features-grid">
+            <p style="text-align: left;">Los datos se representan como un <strong>mapa interactivo</strong> donde el usuario puede navegar a través de él y hacer click en algún punto para reproducir el sonido del ave, ver su especie y una foto de la misma.</p>   
+            <img src="apartado2.png" width="500px" alt="apartado2">
+            <img src="apartado2.1.png" width="500px" alt="apartado2.1">
+        </div>
+    </section>
+
+    <!-- ============================================
+         FUNCIONAMIENTO Y TECNOLOGÍA
+         ============================================ -->
+    <section class="funcionamiento">
+        <div class="datos">
+            <h3>Funcionamiento y tecnología utilizada</h3>
+            <p>Cada punto visible en la interfaz representa una grabación individual. Los sonidos con <strong>propiedades acústicas similares</strong> se ubican más cerca entre sí, formando agrupaciones visuales que reflejan semejanzas reales en los cantos de las aves.</p>
+            
+            <div class="apartado3">
+                <img src="funcionamiento.png" width="820px" alt="apartado3">  
+            </div>
+        </div>
+    </section>
+
+    <section class="filtrar">
+        <p><strong>Además, la página permite filtrar los sonidos por especie, ofreciendo una otra forma de exploración dentro del mapa:</strong></p>
+        <img src="apartado6.png" width="500px" alt="Filtrar">
+    </section>
+
+    <!-- ============================================
+         MACHINE LEARNING
+         ============================================ -->
+    <section class="maching">
+        <p>Bird Sounds utiliza <strong>Machine Learning</strong> para analizarlos y agruparlos según:</p>
+        <img src="apartado4.png" width="1100px" alt="Machine Learning">
+        <p>Revelando patrones acústicos naturales que generan una nueva forma de experienciar la biodiversidad sonora.</p>
+    </section>
+
+    <section class="proyecto">
+        <h3>¿Cómo se lleva a cabo este proyecto?</h3>
+        <p>Se lleva a cabo mediante el Machine Learning:</p>
+        <img src="Quees.png" width="500px" alt="Qué es ML">
+        <p>Es una rama de la inteligencia artificial, en la cual las computadoras aprenden por sí solas, reconociendo patrones y tomando decisiones a partir de datos, sin que una persona les diga como hacerlo paso a paso.</p>
+    </section>
+
+    <section class="detectan">
+        <img src="sabiasque.png" width="500px" alt="Sabías que">
+        <p><strong>Los sistemas de Machine Learning detectan:</strong></p>
+        <img src="apartado8.png" width="600px" alt="Detectan">
+        <p>Con el fin de realizar tareas y generar proyecciones.</p>
+    </section>
+
+    <section class="tipos">
+        <img src="tipomachine.png" width="1100" alt="Tipos de ML">
+    </section>
+
+    <!-- ============================================
+         CARRUSEL DE AUTORES
+         ============================================ -->
+    <section class="authors-section" id="autores">
+        <h2>Autores del proyecto</h2>
+        
+        <div class="carousel-container">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">‹</button>
+            
+            <div class="carousel-wrapper" id="carouselWrapper">
+                <!-- Autor 1 - Manny Tan -->
+                <div class="author-card">
+                    <div class="author-layout">
+                        <div class="author-image">
+                            <img src="manny.png" alt="Manny Tan">
+                        </div>
+                        <div class="author-info">
+                            <h3>Manny Tan</h3>
+                            <p>Programador de Los Ángeles quien co-creó el experimento Bird Sounds junto con Google Creative Lab.</p>
+                            <p>Se encargó del diseño interactivo, visualización y programación del experimento (interpretación, visualización de puntos clicables, interfaz web).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Autor 2 - Kyle McDonald -->
+                <div class="author-card">
+                    <div class="author-layout">
+                        <div class="author-image">
+                            <img src="kyle.png" alt="Kyle McDonald">
+                        </div>
+                        <div class="author-info">
+                            <h3>Kyle McDonald</h3>
+                            <p>Artista y desarrollador especializado en código creativo y aprendizaje automático.</p>
+                            <p>Colaboró en la implementación del algoritmo de Machine Learning para el análisis y agrupación de los sonidos de aves.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Autor 3 - Yotam Mann -->
+                <div class="author-card">
+                    <div class="author-layout">
+                        <div class="author-image">
+                            <img src="yotam.png" alt="Yotam Mann">
+                        </div>
+                        <div class="author-info">
+                            <h3>Yotam Mann</h3>
+                            <p>Estudió música y ciencias computacionales en U.C. Berkeley's Center for New Music and Audio Technologies. Es parte del profesorado y comunidad de ITP en NYU.</p>
+                            <p>En el proyecto Bird Sounds, aportó su experiencia en audio interactivo, permitiendo la integración de las grabaciones de aves y su reproducción directa en la interfaz.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Autor 4 - Jessie Barry -->
+                <div class="author-card">
+                    <div class="author-layout">
+                        <div class="author-image">
+                            <img src="jessie.png" alt="Jessie Barry">
+                        </div>
+                        <div class="author-info">
+                            <h3>Jessie Barry</h3>
+                            <p>Ornitóloga estadounidense reconocida por su trabajo en el Cornell Lab of Ornithology. Estudió Biología y Ecología en la University of Washington.</p>
+                            <p>En el proyecto aportó los datos sonoros provenientes del archivo Macaulay Library's Essential Set for North America. Su participación logró la precisión de las grabaciones, permitiendo que la IA trabajara con material de alta calidad científica.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-button next" onclick="moveCarousel(1)">›</button>
+        </div>
+    </section>
+
+    <!-- ============================================
+         GALERÍA DE AVES CON SONIDOS
+         ============================================ -->
+    <section class="birds-gallery">
+        <div class="cantidad">
+            <p>En la plataforma se pueden explorar</p> 
+            <h3>+ 14.000</h3>
+            <h4>grabaciones de cantos de aves</h4>
+            <p>pertenecientes a diversas especies, estas son las principales:</p>
+        </div>
+
+        <div class="birds-grid">
+            <!-- Ave 1 -->
+            <div class="bird-card" data-sound="pajaritos cantores/hawk.mp3">
+                <div class="bird-card-image">
+                    <img src="halcon1.png" alt="Halcón" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 2 -->
+            <div class="bird-card" data-sound="pajaritos cantores/hummingbird.mp3">
+                <div class="bird-card-image">
+                    <img src="colibri1.png" alt="Colibrí" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 3 -->
+            <div class="bird-card" data-sound="pajaritos cantores/phoebe.mp3">
+                <div class="bird-card-image">
+                    <img src="phoebe1.png" alt="Phoebe" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 4 -->
+            <div class="bird-card" data-sound="pajaritos cantores/owl.mp3">
+                <div class="bird-card-image">
+                    <img src="buho1.png" alt="Búho" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 5 -->
+            <div class="bird-card" data-sound="pajaritos cantores/duck.mp3">
+                <div class="bird-card-image">
+                    <img src="pato1.png" alt="Pato" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 6 -->
+            <div class="bird-card" data-sound="pajaritos cantores/gnatcatcher.mp3">
+                <div class="bird-card-image">
+                    <img src="mosquitero1.png" alt="Mosquitero" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 7 -->
+            <div class="bird-card" data-sound="pajaritos cantores/sparrow.mp3">
+                <div class="bird-card-image">
+                    <img src="gorrión1.png" alt="Gorrión" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 8 -->
+            <div class="bird-card" data-sound="pajaritos cantores/warbler.mp3">
+                <div class="bird-card-image">
+                    <img src="curruca1.png" alt="Curruca" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 9 -->
+            <div class="bird-card" data-sound="pajaritos cantores/wren.mp3">
+                <div class="bird-card-image">
+                    <img src="reyezuelo1.png" alt="Reyezuelo" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 10 -->
+            <div class="bird-card" data-sound="pajaritos cantores/waxwing.mp3">
+                <div class="bird-card-image">
+                    <img src="aladecera1.png" alt="Ala de cera" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 11 -->
+            <div class="bird-card" data-sound="pajaritos cantores/Goldfinch.mp3">
+                <div class="bird-card-image">
+                    <img src="jilguero1.png" alt="Jilguero" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+
+            <!-- Ave 12 -->
+            <div class="bird-card" data-sound="pajaritos cantores/gull.mp3">
+                <div class="bird-card-image">
+                    <img src="gaviota1.png" alt="Gaviota" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SECCIÓN CANTO DE AVES
+         ============================================ -->
+    <section class="canto">
+        <img src="apartado5.png" width="400px" alt="Canto"> 
+        <div>
+            <p>Los cantos de las aves suelen ser <strong>difíciles de distinguir,</strong> ya que las variaciones en sus notas y tonos son muy sutiles y en ocasiones <strong>imperceptibles para el oído humano.</strong></p>
+            <p>La plataforma Bird Sounds visibiliza esta dificultad, diferenciando los sonidos y mostrando, de forma visual e interactiva, cómo pequeñas variaciones acústicas pueden diferenciar una especie de otra.</p>
+        </div>
+    </section>
+
+    <!-- ============================================
+         IMPORTANCIA Y APORTE
+         ============================================ -->
+    <section class="importancia">
+        <h3>Importancia y aporte del proyecto</h3>
+        <div class="imagen-centrada">
+            <img src="apartado7.png" width="800px" alt="Importancia">
+        </div>
+    </section>
+
+    <section class="elementos">
+        <p>La combinación de estos elementos:</p>
+        <div class="imagen-centrada">
+            <img src="apartado8.png" width="700px" alt="Elementos">
+        </div>
+        <p>Convierte al proyecto en un referente contemporáneo dentro del campo del <strong>arte de datos (data art)</strong>. Donde se evidencia cómo la tecnología puede <strong>humanizar la información,</strong> permitiendo escuchar los datos, no solo verlos.</p>
+    </section>
+
+    <section class="diagrama">
+        <h3>Diagrama </h3>
+        <img src="diagrama.png" width="100%">
+        
+    </section>
+
+    <section class="conclusiones">
+        <h3>Conclusiones</h3>
+        <p>Bird Sounds muestra cómo la visualización puede transformar información científica en experiencias digitales. A través del sonido y la imagen, los datos dejan de ser abstractos y se convierten en una forma nueva y cercana de entender las aves.</p>
+        <img src="conclusión.png" width="700px">
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <h3>Referencias</h3>
+        <p>about. (s. f.). https://yotammann.info/about
+
+ALIEN Art Centre - Artists - Kyle McDonald. (s. f.). https://www.alien.com.tw/u/en/profile/Kyle_McDonald
+
+Bird Sounds by Manny Tan & Kyle McDonald - Experiments with Google. (s. f.). https://experiments.withgoogle.com/bird-sounds
+Bird sounds. (s. f.). IIB Awards. https://www.informationisbeautifulawards.com/showcase/1853-bird-sounds
+Data Visualization Society. (s. f.). Data Visualization Society. https://www.datavisualizationsociety.org/
+Google AI -                      Understanding AI: AI tools, training, and skills. (s. f.). https://ai.google/learn-ai-skills/
+Googlecreativelab. (s. f.). GitHub - googlecreativelab/aiexperiments-bird-sounds: Thousands of bird sounds visualized using machine learning. GitHub. https://github.com/googlecreativelab/aiexperiments-bird-sounds
+
+Ibm. (2025, 27 junio). Aprendizaje automático. IBM. https://www.ibm.com/mx-es/think/topics/machine-learning
+Kyle McDonald. (s. f.). https://www.kylemcdonald.net/
+Macaulay Library. (s. f.). Macaulay Library. https://www.macaulaylibrary.org/
+Manny Tan - Los Angeles, California, United States | Professional Profile | LinkedIn. (s. f.). https://www.linkedin.com/in/mannytan
+Manovich, Lev. (2013). Software Takes Command. Bloomsbury Academic.
+Moura, F. T., & Moura, F. T. (2019, 7 diciembre). Experiments with Google: Bird Sounds Visualized by Machine Learning. LiveInnovation.org. https://liveinnovation.org/experiments-with-google-bird-sounds-visualized-by-machine-learning/
+Powell, H. (2022, 9 septiembre). Jessie Barry. Birds, Cornell Lab Of Ornithology. https://www.birds.cornell.edu/home/staff/jessie-barry
+Van der Maaten, L., & Hinton, G. (2008). Visualizing Data using t-SNE. Journal of Machine Learning Research, 9, 2579–2605.
+Yau, N. (2016, 28 noviembre). Visual collection of bird sounds. FlowingData. https://flowingdata.com/2016/11/29/bird-sounds
+Yotam mann. (s. f.). https://tisch.nyu.edu/itp/itp-people/faculty/fellowship-alumni/yotam-mann.html</p>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
